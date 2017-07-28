@@ -1,0 +1,33 @@
+body{
+  margin: 0; padding: 0;
+}
+
+p.name{
+  font-family: "あさご本丸ゴシック";
+}
+
+.split-box{
+  position:absolute;
+  width:50%;
+  height:100%;
+  text-align: center;
+}
+
+.left-box {
+  left:0;
+  background:#f0fff0;
+  color:#f08080;
+  overflow-y:scroll;
+}
+
+.right-box {
+  right:0;
+  background:#f08080;
+  color:#f0fff0;
+}
+
+.logo{
+  max-height: 300px;
+  width: auto;
+  margin-top: 150px; 
+}
