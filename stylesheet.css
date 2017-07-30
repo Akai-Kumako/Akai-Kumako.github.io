@@ -13,7 +13,7 @@ ul.resizeimg img{
 
 p.name{
   font-family: "あさご本丸ゴシック";
-  font-size: xx-large;
+  font-size: x-large;
   font-weight: bold;
 }
 
@@ -47,4 +47,12 @@ p.link{
   max-height: 300px;
   width: auto;
   margin-top: 150px; 
+}
+
+@media screen and (max-width:600px) { 
+  .split-box {
+    position:relative;
+    width:100%;
+    height:auto; 
+  }
 }
