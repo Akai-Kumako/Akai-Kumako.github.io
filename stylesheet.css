@@ -17,6 +17,12 @@ p.name{
   font-weight: bold;
 }
 
+p.link{
+  font-family: "あさご本丸ゴシック";
+  font-size: large;
+  font-weight: bold;
+}
+
 .split-box{
   position:absolute;
   width:50%;
