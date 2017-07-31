@@ -4,6 +4,7 @@ body{
 
 ul{
   margin: 0; padding: 0;
+  line-height:0;
 }
 
 ul.resizeimg img{
@@ -11,12 +12,9 @@ ul.resizeimg img{
   height: auto;
 }
 
-li img{
-  vertical-align: bottom;
-}
-
 .snap {/*親div*/
   position: relative;/*相対配置*/
+  overflow: hidden;
 }
 
 .snap p {
@@ -26,6 +24,20 @@ li img{
   right: 20px;
   font-weight: bold; /*太字に*/
   font-family :Quicksand, sans-serif;/*Google Font*/
+}
+
+.snap img {
+  transition: 0.5s;
+  /*拡大されるスピードを設定します*/
+}
+
+.snap img:hover {
+  -moz-transform: scale(1.1,1.1);
+  -webkit-transform: scale(1.1,1.1);
+  -o-transform: scale(1.1,1.1);
+  -ms-transform: scale(1.1,1.1);
+  /*拡大される比率を設定します*/
+  
 }
 
 p.name{
