@@ -11,6 +11,23 @@ ul.resizeimg img{
   height: auto;
 }
 
+li img{
+  vertical-align: bottom;
+}
+
+.snap {/*親div*/
+  position: relative;/*相対配置*/
+}
+
+.snap p {
+  position: absolute;/*絶対配置*/
+  color: #191970;/*文字は白に*/
+  bottom: 0px;
+  right: 20px;
+  font-weight: bold; /*太字に*/
+  font-family :Quicksand, sans-serif;/*Google Font*/
+}
+
 p.name{
   font-family: "あさご本丸ゴシック";
   font-size: x-large;
